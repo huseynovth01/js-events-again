@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+    <title>new-145</title>
+</head>
+<body>
+    <div class="overlay1 hidden1"></div>
+
+    <!-- phone button strat -->
+    <button class="btn_phone">
+        <i class="fa-solid fa-phone"></i>
+        <span class="fa-text">145</span>
+    </button>
+     <!-- phone button finish  -->
+
+<!-- ---------------------------------------------- -->
+
+<div class="modal-1 hidden1">
+    <div class="text">
+        <h2>Melumat merkezine zeng</h2>
+        <button class="btn_x_1">⨉</button>
+    </div>
+    <hr>
+    <h3>Size uygun elaqe vasitesini secin</h3>
+
+    <div class="order">
+            <h4><i class="fa-solid fa-phone"></i>
+            Birbasa zeng
+            </h4>
+            <h4><i class="fa-solid fa-globe"></i>
+                Onlayn zeng
+            </h4 >
+
+            <h4 class="btn-call">
+                <i class="fa-solid fa-book"></i>
+            Zeng sifarisi
+            </h4>
+    </div>
+</div>
+
+<!-------------------------------------------------->
+   
+<div class="modal-2 hidden2">
+    <div class="text_time">
+        <h2>Zeng sifarisi</h2>
+        <button class="btn_x_2" onclick="closeorder()">⨉</button>
+       </div>
+       <hr>
+       <h3>Xidmət vaxtı: Bazar ertəsi - Cümə, 10:00–18:00</h3>
+       
+       <div class="forms">
+           <form class="ad-soyad">
+               <input type="text" placeholder="Ad,soyad">
+               <input type="text" placeholder="Telefon">
+           </form>
+       </div>
+       <div class="radio">
+           <input type="radio" name="time" >
+           <label >Mumkun qeder tez</label>
+           <input type="radio" name="time">
+           <label >Nahardan əvvəl</label>
+           <input type="radio" name="time">
+           <label >Nahardan sonra</label>
+       </div>
+       <hr>
+       <button class="call_order">Zeng sifarisi</button>
+   </div>
+
+   <div class="overlay2 hidden2"></div>
+
+<!-------------------------------------------------->
+
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
